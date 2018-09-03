@@ -14,10 +14,8 @@ let mouseDown = false;
 function togglePlay() {
     if(video.paused) {
         video.play();
-        console.log(video);
     } else {
         video.pause();
-        console.log('pausing');
     }
 }
 function updateButton(){
